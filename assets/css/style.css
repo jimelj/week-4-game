@@ -1,0 +1,18 @@
+.lb-lg {
+  font-size: 2em;
+}
+
+.imgButton {
+  width: 100px;
+  margin-left: 20px;
+
+}
+
+body {
+  background-image: url("../images/ep_naturalblack.png");
+}
+
+.height{
+  /*height: 6.5em;*/
+  /*padding: 30px;*/
+}
