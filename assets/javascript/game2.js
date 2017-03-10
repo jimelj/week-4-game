@@ -26,6 +26,7 @@ function startGame(){
   $("#randomNumber").html(randomNumber);
 
 
+
 diamond1 = getRandomNumber();
 // console.log(diamond1);
 diamond2 = getRandomNumber();
@@ -37,6 +38,8 @@ diamond4 = getRandomNumber();
 
 
 }
+
+startGame();
 
 $("img").click(function(){
 
