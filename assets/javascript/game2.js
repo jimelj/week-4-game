@@ -65,14 +65,15 @@ $("img").click(function(){
 
     wins++;
     $("#wins").html(wins);
-    $("#message").html("You win!");
+    $("#message").html('<span class="pull-right bg-success text-center"><h4>You Win!</h4></span>');
     reset();
 
 
   }else if (userTotalScore > randomNumber) {
     losses++;
     $("#losses").html(losses);
-    $("#message").html("You Lose!");
+    $("#message").html('<span class="pull-right bg-danger text-center"><h4>You Lose!</h4></span>');
+
     // console.log("counter",losses);
     // console.log(userTotalScore);
     reset();
